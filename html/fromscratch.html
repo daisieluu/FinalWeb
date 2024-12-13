@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Page</title>
+    <link href="/css/custom.css" rel="stylesheet">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="fromscratch.html">Scratch Page</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h1>Scratch Page</h1>
+        <p>This is my from-scratch page.</p>
+        <ol>
+            <li>Ordered List
+                <ul>
+                    <li>Nested Item 1</li>
+                    <li>Nested Item 2</li>
+                </ul>
+            </li>
+        </ol>
+        <img src="/image/banker.jpg" alt="Example Image">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HQfWtrSbvh0?si=gd1jP1AScSOn1d_v"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+
+        <div id="tableau-graph">
+            <h2>Interactive Tableau Graph</h2>
+            <div class="tableau">
+                <tableau-viz id="tableauViz"
+                    src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms"></tableau-viz>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
