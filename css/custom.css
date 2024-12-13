@@ -41,7 +41,7 @@ header {
 }
 
 .background {
-    background-image: url('/image/new-york.jpeg');
+    background-image: url('../image/new-york.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
